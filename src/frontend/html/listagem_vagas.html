@@ -1,4 +1,5 @@
 <!-- Tela para visualizar as vagas disponíveis e reservadas -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,14 +15,26 @@
 
     <main class="pagina-listagem">
 
-        <!-- Título lateral -->
-        <h1 class="titulo-vagas">Consulte sua vaga.</h1>
-
         <section class="listagem-vagas">
 
             <p class="subtitulo">
                 Confira abaixo a situação das vagas do estacionamento.
             </p>
+
+            <!-- Resumo da quantidade de vagas -->
+            <div class="resumo-vagas">
+
+                <div class="resumo-disponiveis">
+                    <span id="total-disponiveis">0</span>
+                    <p>Vagas disponíveis</p>
+                </div>
+
+                <div class="resumo-reservadas">
+                    <span id="total-reservadas">0</span>
+                    <p>Vagas reservadas</p>
+                </div>
+
+            </div>
 
             <!-- Quadro de vagas disponíveis -->
             <div class="quadro-vagas">
@@ -99,11 +112,10 @@
 
             </div>
 
-            <!-- Link para retornar à tela de cadastro -->
-            <p class="troca-pagina">
-                Deseja cadastrar uma nova reserva?
-                <a href="cadastrar_reserva.html">Clique aqui</a>.
-            </p>
+            <!-- Botão para retornar à tela de cadastro -->
+                <a href="cadastrar_reserva.html" class="botao-link">
+                    Quero reservar uma vaga
+                </a>
 
         </section>
 
