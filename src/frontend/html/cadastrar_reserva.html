@@ -10,22 +10,37 @@
     <link rel="stylesheet" href="../css/cadastrar_reserva.css">
 </head>
 
+<!-- Corpo da página-->
 <body>
 
     <main class="pagina-reserva">
 
+        <!-- Título lateral separado do formulário -->
         <h1 class="titulo-reserva">Sua vaga, seu lugar garantido.</h1>
 
         <section class="formulario-reserva">
 
             <p class="subtitulo"> Preencha os campos abaixo para realizar uma reserva.
             </p>
-        
+            
+            <!-- Formulário de cadastro de reserva -->
             <form id="form-reserva"> 
 
+                <!-- Campos para inserção dos dados da reserva -->
+                <!-- Os campos foram reordenados afim de agrupar as categorias -->
                 <div class="campo-form">
                     <label for="placa-veiculo">Placa do Veículo:</label>
                     <input type="text" id="placa-veiculo" name="placa-veiculo" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="modelo-veiculo">Modelo do veículo:</label>
+                    <input type="text" id="modelo-veiculo" name="modelo-veiculo" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="cor-veiculo">Cor do veículo:</label>
+                    <input type="text" id="cor-veiculo" name="cor-veiculo" required>
                 </div>
 
                 <div class="campo-form">
@@ -44,22 +59,16 @@
                 </div>
 
                 <div class="campo-form">
-                    <label for="modelo-veiculo">Modelo do veículo:</label>
-                    <input type="text" id="modelo-veiculo" name="modelo-veiculo" required>
-                </div>
-
-                <div class="campo-form">
-                    <label for="cor-veiculo">Cor do veículo:</label>
-                    <input type="text" id="cor-veiculo" name="cor-veiculo" required>
-                </div>
-
-                <div class="campo-form">
                     <label for="numero-vaga">Número da vaga de estacionamento:</label>
                     <input type="text" id="numero-vaga" name="numero-vaga" required>
                 </div>
 
             </form>
 
+            <!-- Botão para enviar os dados do formulário -->
+            <button class="botao-submit" type="submit" form="form-reserva">Cadastrar Reserva</button>
+
+            <!-- Link para visualizar as reservas cadastradas -->
             <p class="troca-pagina">
                 Visualize as reservas cadastradas clicando <a href="vlistagem_vagas.html">aqui</a>.
             </p>
