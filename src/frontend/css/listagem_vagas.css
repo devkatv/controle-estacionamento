@@ -157,3 +157,45 @@ tbody tr:hover {
 .botao-link:visited {
     color: white;
 }
+
+/* Organização do resumo de vagas */
+.resumo-vagas {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos quadros de resumo */
+.resumo-disponiveis,
+.resumo-reservadas {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Quadro de vagas disponíveis */
+.resumo-disponiveis {
+    background-color: #dcebdc;
+    color: #35643b;
+    border: 1px solid #ddd;
+}
+
+/* Quadro de vagas reservadas */
+.resumo-reservadas {
+    background-color: #dce4ed;
+    color: #446181;
+    border: 1px solid #ddd;
+}
+
+/* Estilização dos números */
+.resumo-vagas span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Estilização das descrições */
+.resumo-vagas p {
+    font-size: 14px;
+    margin-top: 5px;
+}
