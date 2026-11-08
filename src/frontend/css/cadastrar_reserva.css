@@ -1,0 +1,87 @@
+/* Estilização da tela de cadastro de reservas */
+
+/* Configuração para a página inteira */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo da página */
+/* fonte da imagem: unsplash.com */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.426), rgba(0, 0, 0, 0.649)), url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina-reserva {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulario-reserva {
+    background-color: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.formulario-reserva h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.campo-form {
+    margin-bottom: 15px;
+}
+
+.campo-form label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.campo-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.campo-form input:focus {
+    border-color: #555;
+}
+
+.troca-pagina {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.troca-pagina a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.troca-pagina a:hover {
+    text-decoration: underline;
+}
