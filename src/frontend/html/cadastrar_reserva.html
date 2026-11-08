@@ -1,0 +1,70 @@
+<!-- Tela para realizar o cadastro de uma reserva -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Reserva</title>
+    <link rel="stylesheet" href="../css/cadastrar_reserva.css">
+</head>
+
+<body>
+
+    '<main class="pagina-reserva">
+
+        <section class="formulario-reserva">
+
+            <h1>Cadastrar Reserva</h1>
+            <p class="subtitulo"> Preencha os campos abaixo para cadastrar uma nova reserva.
+            </p>
+        
+            <form id="form-reserva"> 
+
+                <div class="campo-form">
+                    <label for="placa-veiculo">Placa do Veículo:</label>
+                    <input type="text" id="placa-veiculo" name="placa-veiculo" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="nome-cliente">Nome do proprietário:</label>
+                    <input type="text" id="nome-cliente" name="nome-cliente" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="numero-apartamento">Número do apartamento:</label>
+                    <input type="text" id="numero-apartamento" name="numero-apartamento" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="bloco-apartamento">Bloco do apartamento:</label>
+                    <input type="text" id="bloco-apartamento" name="bloco-apartamento" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="modelo-veiculo">Modelo do veículo:</label>
+                    <input type="text" id="modelo-veiculo" name="modelo-veiculo" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="cor-veiculo">Cor do veículo:</label>
+                    <input type="text" id="cor-veiculo" name="cor-veiculo" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="numero-vaga">Número da vaga de estacionamento:</label>
+                    <input type="text" id="numero-vaga" name="numero-vaga" required>
+                </div>
+
+            </form>
+
+            <p class="troca-pagina">
+                Visualize as reservas cadastradas clicando <a href="vlistagem_vagas.html">aqui</a>.
+            </p>
+
+        </section>
+    </main>
+</body>
+
+</html>
