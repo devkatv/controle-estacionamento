@@ -8,10 +8,9 @@
 }
 
 /* Estilização do corpo da página */
-/* fonte da imagem: unsplash.com */
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.426), rgba(0, 0, 0, 0.649)), url("../images/background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.265), rgba(0, 0, 0, 0.509)), url("../images/background.png");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -25,14 +24,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
     padding: 20px;
 }
 
+.titulo-reserva {
+    color: white;
+    font-size: 80px;
+    width: 400px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 100px;    
+}
+
 .formulario-reserva {
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     width: 450px;
     padding: 30px;
     border-radius: 10px;
+    position: relative;
+    left: 150px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.625);
 }
 
 .formulario-reserva h2 {
@@ -43,8 +56,10 @@ body {
 
 .subtitulo {
     text-align: center;
-    color: #666;
+    color: #6f6f6f;
     margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .campo-form {
@@ -54,7 +69,8 @@ body {
 .campo-form label {
     display: block;
     margin-bottom: 6px;
-    color: #333;
+    color: #6f6f6f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .campo-form input {
@@ -66,7 +82,11 @@ body {
 }
 
 .campo-form input:focus {
-    border-color: #555;
+    border-color: #6f6f6f;
+}
+
+.campo-form input:hover {
+    border-color: #446181;
 }
 
 .troca-pagina {
@@ -84,4 +104,5 @@ body {
 
 .troca-pagina a:hover {
     text-decoration: underline;
+    color: #446181;
 }
